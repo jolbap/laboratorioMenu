@@ -19,7 +19,7 @@ public class MenuBaseAdapter extends BaseAdapter implements OnLoadCompleImg{
     private ArrayList<TextView> counter;
     private Context context;
 
-    public MenuBaseAdapter(ArrayList<ItemMenuStructure> list, Context context) {
+    public MenuBaseAdapter(Context context, ArrayList<ItemMenuStructure> list) {
         this.list = list;
         this.context = context;
         counter = new ArrayList<TextView>();
